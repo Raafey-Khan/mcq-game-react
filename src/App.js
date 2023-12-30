@@ -6,6 +6,7 @@ import Leaderboard from './components/Leaderboard/Leaderboard';
 import UserAuthentication from './components/UserAuthentication/UserAuthentication';
 import questionsData from './data/questions.json';
 
+
 function App() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
